@@ -1,0 +1,27 @@
+{
+  "name": "sample-html",
+  "description": "sample-demo-html",
+  "author": "yaimeet",
+  "targetDir": "git-static",
+  "gitHost": "https://github.com",
+  "gitNamespace": "micro-development",
+  "packageKeySplit": "!!!",
+  "dependencies": {
+    "sample-js!!!master": {
+      "gitRepoName": "sample-js",
+      "gitBranchName": "master",
+      "lock": false
+    },
+    "sample-css!!!master": {
+      "gitRepoName": "sample-css",
+      "gitBranchName": "master",
+      "lock": false
+    },
+    "sample-css!!!bg_custom": {
+      "gitRepoName": "sample-css",
+      "gitBranchName": "bg_custom",
+      "lock": false
+    }
+  },
+  "lock": false
+}
